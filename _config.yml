@@ -1,0 +1,30 @@
+# Site settings
+title: Pretty Vacant Ink
+email: hello@prettyvacantink.com
+formspree_token: 000000 # Either form token or email address
+url: https://www.prettyvacantink.com
+domain: www.prettyvacantink.com
+description: "Manchester Based Tattoo Artist."
+ga: UA-143236136-1
+lightwidget: 00000000000000000000
+iguser: prettyvacant_ink_
+fbpage: keri.vacant.tattoo
+mapsurl: https://www.google.co.uk/maps/place/Pretty+Vacant+Ink/@53.472162,-2.241171,15z/data=!4m5!3m4!1s0x0:0x3cb9be6e979cda5e!8m2!3d53.472162!4d-2.241171
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-bg: '#F9F9F7'
+  panel-bg: '#F9F9F7'
+  links: '#646464'
+  text: '#333333'
+
+# Footer settings
+footer: Pretty Vacant Ink
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: https://instagram.com/prettyvacant_ink_/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
