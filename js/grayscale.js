@@ -40,7 +40,7 @@ var map = null;
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
-  map.setCenter(new google.maps.LatLng(53.417517, -2.320215));
+  map.setCenter(new google.maps.LatLng(53.4722, -2.2412));
 });
 
 function init() {
