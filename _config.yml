@@ -1,12 +1,12 @@
 # Site settings
-title: Keri Vacant Ink
+title: Keri Vacant
 email: hello@prettyvacantink.com
 formspree_token: 000000 # Either form token or email address
 url: https://www.prettyvacantink.com
 domain: www.prettyvacantink.com
 description: "Black work Tattoo Artist."
 ga: UA-143236136-1
-lightwidget: c94d6f6629b058d1846c508dff55d789
+lightwidget: 4c4c8ca8edc2542091d143bb1f3ee4bb
 iguser: keri.vacant.tattoo
 fbpage: keri.vacant.tattoo
 mapsurl: https://www.google.co.uk/maps/place/Pretty+Vacant+Ink/@53.472162,-2.241171,15z/data=!4m5!3m4!1s0x0:0x3cb9be6e979cda5e!8m2!3d53.472162!4d-2.241171
@@ -18,7 +18,7 @@ color:
   text: '#333333'
 
 # Footer settings
-footer: Kerry Vacant Ink
+footer: Keri Vacant
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
