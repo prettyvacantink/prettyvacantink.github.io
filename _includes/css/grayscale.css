@@ -93,14 +93,6 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:767px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-}
-
 a {
     color: {{ site.color.links }};
     -webkit-transition: all .2s ease-in-out;
@@ -177,6 +169,12 @@ a:focus {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+    
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
 
     .top-nav-collapse {
         padding: 0;
@@ -186,37 +184,6 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-}
-
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding-top: 80px;
-    text-align: center;
-    color: {{ site.color.text }};
-    background-color: {{ site.color.primary-bg }};
-}
-
-img.logo {
-    width: fit-content;
-}
-
-.intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.intro .intro-body .brand-heading {
-    font-size: 40px;
-}
-
-.intro .intro-body .intro-text {
-    font-family: maria, Helvetica, sans-serif;
-    font-size: 25px;
-}
-
-@media(min-width:767px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -233,7 +200,46 @@ img.logo {
     .intro .intro-body .intro-text {
         font-size: 36px;
     }
+    .content-section {
+        padding-top: 20px;
+    }
+
+    .gallery-section {
+        padding: 5px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 50px;
+    }
 }
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    text-align: center;
+    color: {{ site.color.text }};
+    background-color: {{ site.color.primary-bg }};
+}
+
+
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-family: maria, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
 
 .btn-circle {
     width: 70px;
@@ -327,21 +333,6 @@ img.logo {
     width: 100%;
     height: 200px;
     margin-top: 20px;
-}
-
-@media(min-width:767px) {
-    .content-section {
-        padding-top: 20px;
-    }
-
-    .gallery-section {
-        padding: 5px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 50px;
-    }
 }
 
 .btn {
