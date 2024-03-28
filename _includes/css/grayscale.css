@@ -192,15 +192,14 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding-top: 150px;
+    padding-top: 80px;
     text-align: center;
     color: {{ site.color.text }};
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-bg }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+}
+
+img.logo {
+    width: fit-content;
 }
 
 .intro .intro-body {
@@ -221,6 +220,10 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
+    }
+    
+    img.logo {
+        padding-top: 80px;
     }
 
     .intro .intro-body .brand-heading {
